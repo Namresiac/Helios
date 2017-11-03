@@ -1,0 +1,11 @@
+#!/bin/bash
+for i in $@
+do
+  if ! [ -d $i ]; then
+    var=$(awk 'END {print NR}' $i)
+    echo $var $i
+  else
+    echo ""
+    exit 1
+  fi
+done
