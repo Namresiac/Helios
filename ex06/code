@@ -1,0 +1,6 @@
+`map echo "some" "variables on the" "commandline"`
+ 12 
+ 13 `cd ~/bash-course #replace by dir where you downloaded the git into`
+ 14 
+ 15 `map head "resources/testfile" "resources/matrices/3.mtx."`
+ 16 
